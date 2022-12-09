@@ -1,0 +1,35 @@
+@page
+@model RyanModel
+@{
+    ViewData["Title"] = "Joe";
+}
+
+
+  @foreach (var l in Model.Listeners){
+    if(l.ListenerID == 2){
+      <h1>@Html.DisplayFor(modelItem => l.FirstName)</h1>
+      <p>@Html.DisplayFor(modelItem => l.FirstName) @Html.DisplayFor(modelItem => l.LastName) is a @Html.DisplayFor(modelItem => l.Major) major at Tarleton State University.</p>
+    }
+  }
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Title</th>
+      <th scope="col">Length</th>
+      <th scope="col">Genre</th>
+      <th scope="col">Artist</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var s in Model.Songs){
+        if (s.ListenerID == 2){
+      <tr>
+        <td>@Html.DisplayFor(modelItem => s.SongName)</td>
+        <td>@Html.DisplayFor(modelItem => s.Length)</td>
+        <td>@Html.DisplayFor(modelItem => s.Genre)</td>
+        <td>@Html.DisplayFor(modelItem => s.Artist)</td>
+      </tr>
+      }
+    }
+  </tbody>
+</table>

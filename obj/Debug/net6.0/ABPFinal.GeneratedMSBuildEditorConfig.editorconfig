@@ -1,0 +1,80 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ABPFinal
+build_property.RootNamespace = ABPFinal
+build_property.ProjectDir = C:\Users\Eddie\Documents\WT Classes\CDIM 3312\ABPFinal\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Eddie\Documents\WT Classes\CDIM 3312\ABPFinal
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Eddie/Documents/WT Classes/CDIM 3312/ABPFinal/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eddie/Documents/WT Classes/CDIM 3312/ABPFinal/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eddie/Documents/WT Classes/CDIM 3312/ABPFinal/Pages/Listeners/Dylan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGVuZXJzXER5bGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eddie/Documents/WT Classes/CDIM 3312/ABPFinal/Pages/Listeners/Joe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGVuZXJzXEpvZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eddie/Documents/WT Classes/CDIM 3312/ABPFinal/Pages/Listeners/Jordan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGVuZXJzXEpvcmRhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eddie/Documents/WT Classes/CDIM 3312/ABPFinal/Pages/Listeners/Ryan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGVuZXJzXFJ5YW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eddie/Documents/WT Classes/CDIM 3312/ABPFinal/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eddie/Documents/WT Classes/CDIM 3312/ABPFinal/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eddie/Documents/WT Classes/CDIM 3312/ABPFinal/Pages/Songs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29uZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eddie/Documents/WT Classes/CDIM 3312/ABPFinal/Pages/Songs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29uZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eddie/Documents/WT Classes/CDIM 3312/ABPFinal/Pages/Songs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29uZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eddie/Documents/WT Classes/CDIM 3312/ABPFinal/Pages/Songs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29uZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eddie/Documents/WT Classes/CDIM 3312/ABPFinal/Pages/Songs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29uZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eddie/Documents/WT Classes/CDIM 3312/ABPFinal/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eddie/Documents/WT Classes/CDIM 3312/ABPFinal/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eddie/Documents/WT Classes/CDIM 3312/ABPFinal/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cwqaxuntnr

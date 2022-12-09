@@ -1,0 +1,120 @@
+@page
+@model ABPFinal.Pages.Songs.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Master Songs List</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<form>
+    <p>
+        @{
+            var searchSort = "search";
+        }
+        Song Title: <input type="text" asp-for="SearchString"/>
+        <button type="submit" asp-page="./Index" asp-route-CurrentSort="@searchSort">Search</button>
+    </p>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @{
+                    var titleSort = "title_asc";
+                    if (Model.CurrentSort == "title_asc"){
+                        titleSort = "title_desc";
+                    }
+                }
+                <a asp-page="./Index" asp-route-CurrentSort="@titleSort">Title</a>
+            </th>
+            <th>
+                @{
+                    var lengthSort = "length_asc";
+                    if (Model.CurrentSort == "length_asc"){
+                        lengthSort = "length_desc";
+                    }
+                }
+                <a asp-page="./Index" asp-route-CurrentSort="@lengthSort">@Html.DisplayNameFor(model => model.Song[0].Length)</a>
+            </th>
+            <th>
+                @{
+                    var GenreSort = "Genre_asc";
+                    if (Model.CurrentSort == "Genre_asc"){
+                        GenreSort = "Genre_desc";
+                    }
+                }
+                <a asp-page="./Index" asp-route-CurrentSort="@GenreSort">@Html.DisplayNameFor(model => model.Song[0].Genre)</a>
+            </th>
+            <th>
+                @{
+                    var ArtistSort = "Artist_asc";
+                    if (Model.CurrentSort == "Artist_asc"){
+                        ArtistSort = "Artist_desc";
+                    }
+                }
+                <a asp-page="./Index" asp-route-CurrentSort="@ArtistSort">@Html.DisplayNameFor(model => model.Song[0].Artist)</a>
+            </th>
+            <th>
+                @{
+                    var ListenerSort = "Listener_asc";
+                    if (Model.CurrentSort == "Listener_asc"){
+                        ListenerSort = "Listener_desc";
+                    }
+                }
+                <a asp-page="./Index" asp-route-CurrentSort="@ListenerSort">@Html.DisplayNameFor(model => model.Song[0].ListenerID)</a>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Song) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SongName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Length)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Artist)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ListenerID)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.SongID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.SongID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.SongID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<hr>
+
+@{
+    var prevDisabled="";
+    if (Model.PageNum<= 1){
+        prevDisabled = "disabled";
+    }
+}
+@{
+    var nextDisabled="";
+    if (Model.PageNum>= 4){
+        nextDisabled = "disabled";
+    }
+}
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        <li class="page-item @prevDisabled"><a class="page-link" asp-page="./Index" asp-route-PageNum="@(Model.PageNum - 1)">Previous</a></li>
+        <li class="page-item @nextDisabled"><a class="page-link" asp-page="./Index" asp-route-PageNum="@(Model.PageNum + 1)">Next</a></li>
+    </ul>
+</nav>
